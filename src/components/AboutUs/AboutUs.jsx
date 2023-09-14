@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div className="lg:py-20 lg:px-52 ">
+    <div className="lg:py-24 lg:px-48 ">
         <h1 className="text-center text-2xl font-extrabold">Our Story</h1>
         <br />
 
