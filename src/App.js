@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./NavBar/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutUs from "./AboutUs/AboutUs";
-import Products from './Products/Products';
-import HomePage from "./HomePage/HomePage";
-import PartnerFirms from "./PartnerFirms/PartnerFirms";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Products from './components/Products/Products';
+import HomePage from "./components/HomePage/HomePage";
+import PartnerFirms from "./components/PartnerFirms/PartnerFirms";
 
 
 
