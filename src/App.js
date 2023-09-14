@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./components/NavBar/NavBar";
+import NavBar1 from "./components/NavBar/NavBar1";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutUs from "./components/AboutUs/AboutUs";
 import Products from './components/Products/Products';
@@ -11,7 +11,7 @@ import PartnerFirms from "./components/PartnerFirms/PartnerFirms";
 function App() {
   return (
     <Router>
-      <NavBar />
+      <NavBar1 />
       <Routes>
         <Route path='/home' element={<HomePage />} />
         <Route path='/aboutus' element={<AboutUs />} />
