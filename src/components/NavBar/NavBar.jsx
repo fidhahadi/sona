@@ -15,7 +15,7 @@ import {
           <Bars />
     
           <NavMenu>
-            <NavLink to='/home' activeStyle>
+            <NavLink to='/' activeStyle>
               Home Page
             </NavLink>
             <NavLink to="/aboutus" activeStyle>
