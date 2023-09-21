@@ -1,18 +1,10 @@
 import React from 'react';
 import sona from './wyd.jpg';
 import './AboutUs.css';
-import { useMediaQuery } from 'react-responsive';
-
 
 
 function AboutUs() {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
-  })
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' });
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
-  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' });
-  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
+
   return (
     <div className="lg:py-24 lg:px-48 ">
       <h1 className="text-center text-4xl font-extrabold text-gray-700">Our Story</h1>
