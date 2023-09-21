@@ -1,6 +1,10 @@
 
 .container-products{
     display: flex;
+    align-items: center;
+}
+.product{
+    padding: 30px;
 }
 @media (max-width: 480px) {
     .container-products{
@@ -8,7 +12,7 @@
     }
     .imageProd {
         display: block;
-      text-align: center;;
+      text-align: center;
     }
     .h2-heading{
         text-align: center;
