@@ -6,6 +6,12 @@
 .product{
     padding: 30px;
 }
+.imageProd{
+    width:  600px;
+    height: 500px;
+    object-fit: fill;
+}
+
 @media (max-width: 480px) {
     .container-products{
       display: block;
@@ -13,6 +19,9 @@
     .imageProd {
         display: block;
       text-align: center;
+      width:  400px;
+    height: 400px;
+    object-fit: fill;
     }
     .h2-heading{
         text-align: center;
