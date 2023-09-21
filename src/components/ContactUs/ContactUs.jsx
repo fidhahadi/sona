@@ -1,14 +1,8 @@
 import React from 'react'
-import './ContactUs.css';
 
-const ContactUs = () => {
+function ContactUs() {
   return (
-    <div>ContactUs
-        <div>
-            {/* WhatsApp icon */}
-      
-        </div>
-    </div>
+    <div>ContactUs</div>
   )
 }
 

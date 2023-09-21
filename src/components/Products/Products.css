@@ -1,0 +1,25 @@
+
+.container-products{
+    display: flex;
+}
+@media (max-width: 480px) {
+    .container-products{
+      display: block;
+    }
+    .imageProd {
+        display: block;
+      text-align: center;;
+    }
+    .h2-heading{
+        text-align: center;
+    }
+    .products-description{
+        margin: 30px;
+    }
+    .describe-product{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+}
